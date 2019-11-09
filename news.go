@@ -54,7 +54,7 @@ func getHeadlines(countryCode string, category string, pageSize string) []Articl
 	return newsData.Articles
 }
 
-func getHeadlinesNotifications() {
+func GetHeadlinesNotifications() {
 	articles := getHeadlines("in", "technology", "3")
 	if len(articles) > 0 {
 		news := "\n" + articles[0].Title

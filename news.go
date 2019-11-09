@@ -26,6 +26,7 @@ type Articles struct {
 	Content     string
 }
 
+// Response Structure
 type NewsResponse struct {
 	Status       string
 	TotalResults string
